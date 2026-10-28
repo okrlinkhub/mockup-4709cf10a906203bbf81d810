@@ -1,0 +1,132 @@
+{
+  "title": "Gestione del registro attività",
+  "description": "Prototipo dimostrativo per consultare, filtrare e aggiungere attività inventate.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Riepilogo delle attività e accesso rapido al registro.",
+      "metrics": [
+        {
+          "label": "Attività totali",
+          "value": "6"
+        },
+        {
+          "label": "Da avviare",
+          "value": "2"
+        },
+        {
+          "label": "Completate",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Stato",
+        "Categoria",
+        "Priorità"
+      ],
+      "rows": [
+        [
+          "Attività A",
+          "In corso",
+          "Ricerca",
+          "Media"
+        ],
+        [
+          "Attività B",
+          "Da avviare",
+          "Pianificazione",
+          "Alta"
+        ],
+        [
+          "Attività C",
+          "Completata",
+          "Revisione",
+          "Bassa"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-attivita",
+      "title": "Registro attività",
+      "description": "Tabella filtrabile per stato, categoria e priorità.",
+      "metrics": [],
+      "columns": [
+        "Attività",
+        "Stato",
+        "Categoria",
+        "Priorità",
+        "Data prevista"
+      ],
+      "rows": [
+        [
+          "Attività A",
+          "In corso",
+          "Ricerca",
+          "Media",
+          "12/06/2027"
+        ],
+        [
+          "Attività B",
+          "Da avviare",
+          "Pianificazione",
+          "Alta",
+          "15/06/2027"
+        ],
+        [
+          "Attività C",
+          "Completata",
+          "Revisione",
+          "Bassa",
+          "09/06/2027"
+        ],
+        [
+          "Attività D",
+          "In corso",
+          "Verifica",
+          "Alta",
+          "18/06/2027"
+        ],
+        [
+          "Attività E",
+          "Da avviare",
+          "Ideazione",
+          "Media",
+          "21/06/2027"
+        ],
+        [
+          "Attività F",
+          "Completata",
+          "Documentazione",
+          "Bassa",
+          "07/06/2027"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-attivita",
+      "title": "Aggiungi attività",
+      "description": "Inserisci i dettagli di un'attività fittizia da aggiungere al registro.",
+      "metrics": [],
+      "columns": [
+        "Attività",
+        "Stato",
+        "Categoria",
+        "Priorità",
+        "Data prevista"
+      ],
+      "rows": [],
+      "form": [
+        "Attività",
+        "Stato",
+        "Categoria",
+        "Priorità",
+        "Data prevista"
+      ]
+    }
+  ]
+}
